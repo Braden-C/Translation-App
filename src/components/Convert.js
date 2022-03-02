@@ -42,4 +42,4 @@ const Convert = ({ language, text }) => {
 
 };
 
-export default Convert
+export default Convert;
