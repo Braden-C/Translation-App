@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(130, 236, 255, 0.925), rgba(4, 134, 255, 0.719));
+}
+#root{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main {
+    box-shadow: 8px 5px 5px #0a0a0aa3;
+    border:1px solid rgb(88 88 88);
+    background-color: rgb(190 239 239);
+    border-radius: 5%;
+}
+
+label {
+    padding-left: 15px;
+    padding-top: 5px;
+  
+}
+
+.ui.header{
+    align-content: center;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.ui.header.label {
+    padding-bottom: 0px;
+    color: rgb(0 0 0 );
+    background-color:transparent;
+}
+
+.text.input {
+    padding: 15px;
+    background-color: aqua;
+}
