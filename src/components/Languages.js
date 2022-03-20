@@ -10,6 +10,10 @@ const Languages = [
         value: 'ar'
     },
     {
+        label: 'Spanish',
+        value: 'es'
+    },
+    {
         label: 'Hindi',
         value: 'hi'
     },
