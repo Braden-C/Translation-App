@@ -32,7 +32,59 @@ const Languages = [
     {
         label: 'Greek',
         value: 'el'
-    }
+    },
+    {
+        label: 'Hawaiian',
+        value: 'haw'
+    },
+    {
+        label: 'Irish',
+        value: 'ga'
+    },
+    {
+        label: 'Italian',
+        value: 'it'
+    },
+    {
+        label: 'Korean',
+        value: 'ko'
+    },
+    {
+        label: 'Norwegian',
+        value: 'no'
+    },
+    {
+        label: 'Polish',
+        value: 'pl'
+    },
+    {
+        label: 'Russian',
+        value: 'ru'
+    },
+    {
+        label: 'Swedish',
+        value: 'sv'
+    },
+    {
+        label: 'Persian',
+        value: 'fa'
+    },
+    {
+        label: 'Serbian',
+        value: 'sr'
+    },
+    {
+        label: 'Thai',
+        value: 'th'
+    },
+    {
+        label: 'Vietnamese',
+        value: 'vi'
+    },
+    {
+        label: 'Turkish',
+        value: 'tr'
+    },
 ];
 
 export default Languages;

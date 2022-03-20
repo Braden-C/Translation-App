@@ -38,6 +38,7 @@ const Dropdown = ({ label, Languages, selected, onSelectedChange }) => {
             <div className='field'>
                 <label className='label'>{label}</label>
                 <div onClick={() => setOpen(!open)}
+                    style={{ background: "rgb(37, 51, 65)", color: "white" }}
                     className={`ui selection dropdown ${open ? 'visible active' : ''}`}>
                     <i className='dropdown icon'></i>
                     <div className='text'>{selected.label}</div>

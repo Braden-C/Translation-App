@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, rgba(130, 236, 255, 0.925), rgba(4, 134, 255, 0.719));
+    background-color: rgb(21 32 43);
 }
 #root{
     position: absolute;
@@ -11,9 +11,9 @@ body {
 }
 
 .main {
-    box-shadow: 8px 5px 5px #0a0a0aa3;
-    border:1px solid rgb(88 88 88);
-    background-color: rgb(190 239 239);
+    box-shadow: rgb(136 153 166 / 20%) 0px 0px 15px, rgb(136 153 166 / 15%) 0px 0px 3px 1px;
+    border:1px solid rgb(46, 45, 45);
+    background-color: rgb(25, 39, 52);
     border-radius: 5%;
 }
 
@@ -28,15 +28,19 @@ label {
     padding-left: 20px;
     padding-bottom: 15px;
     padding-top: 10px;
+    color: white;
 }
 
 .ui.header.label {
     padding-bottom: 0px;
-    color: rgb(0 0 0 );
+    color: rgb(86, 132, 175);
     background-color:transparent;
+}
+.ui.form .field>label {
+    color: rgb(86, 132, 175);
 }
 
 .text.input {
     padding: 15px;
-    background-color: aqua;
-}
+    color: rgb(37,51,65,1);
+};
